@@ -1,0 +1,18 @@
+GET "http://localhost:3000/todos/"
+
+###
+
+GET "http://localhost:3000/todos/todoId/"
+
+###
+
+PUT "http://localhost:3000/todos/todoId/"
+Content-Type: application/json
+
+{
+   "priority": "HIGH",
+    "status": "DONE",
+     "todo": "Clean the garden",
+      "category": "LEARNING",
+       "dueDate": "2021-01-12"
+}
